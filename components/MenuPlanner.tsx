@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import { generateMenuRecommendation } from '../services/geminiService';
-import { MenuRecommendation } from '../types';
+import { generateMenuRecommendation } from '../services/geminiService.ts';
+import { MenuRecommendation } from '../types.ts';
 
 const MenuPlanner: React.FC = () => {
   const [eventType, setEventType] = useState('Wedding');

@@ -1,14 +1,14 @@
 
 import React, { useState, useEffect } from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import About from './components/About';
-import Services from './components/Services';
-import Process from './components/Process';
-import WhyChooseUs from './components/WhyChooseUs';
-import MenuPlanner from './components/MenuPlanner';
-import ContactForm from './components/ContactForm';
-import Footer from './components/Footer';
+import Header from './components/Header.tsx';
+import Hero from './components/Hero.tsx';
+import About from './components/About.tsx';
+import Services from './components/Services.tsx';
+import Process from './components/Process.tsx';
+import WhyChooseUs from './components/WhyChooseUs.tsx';
+import MenuPlanner from './components/MenuPlanner.tsx';
+import ContactForm from './components/ContactForm.tsx';
+import Footer from './components/Footer.tsx';
 
 const App: React.FC = () => {
   const [activeSection, setActiveSection] = useState('home');
